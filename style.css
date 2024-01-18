@@ -1,0 +1,107 @@
+*{
+    padding:0px;
+    margin:0px ;
+}
+body{
+    background-image:url(kepek/v3.jpg);
+}
+main{
+    background-color: #dad5ca;
+    border:2px solid #456280 ;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'h h'
+    'n n'
+    'as a'
+    'f f';
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+aside img{
+    border:5px solid #456280;
+    margin: 10px;
+    width: 30%;
+}
+nav{
+grid-area: n;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 20px;
+    text-align: center;
+
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #7893ae;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+grid-area: f;
+}
+article p{
+    color: #456280;
+    text-align: center;
+    font-size: 17px;
+}
+#tartalom h1{
+        color: #456280;
+}
+article{
+    margin-left: 0px;
+    color: #456280;
+}
+article h1{
+    text-align: center;
+    font-size: medium;
+}
+article table{
+    text-align: center;
+    margin: 20px auto;
+}
+article th{
+    background-color: #7893ae;
+    color: white;
+}
+.szines{
+    background-color: #dad5ca;
+}
+
+article tr{
+    background-color: white;
+}
+
+article td{
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: #456280;
+    font-size: 20px;
+    text-align: center;
+}
+nav a:hover{
+    color: lightcoral;
+
+}
+
+@media screen {
+    
+    
+}
